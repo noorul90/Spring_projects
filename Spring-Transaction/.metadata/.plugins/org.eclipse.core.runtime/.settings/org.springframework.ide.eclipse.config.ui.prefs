@@ -1,0 +1,10 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/DeclarativeTxManagement/src/com/dtm/common/aop-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/DeclarativeTxManagement/src/com/dtm/common/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/DeclarativeTxManagement/src/com/dtm/common/controller-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/DeclarativeTxManagement/src/com/dtm/common/persistence-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/DeclarativeTxManagement/src/com/dtm/common/service-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/GlobalTxManagement-Declarative/src/com/dtm/common/aop-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/GlobalTxManagement-Declarative/src/com/dtm/common/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/GlobalTxManagement-Declarative/src/com/dtm/common/persistence-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/GlobalTxManagement-using-Annotation/src/com/dtm/common/aop-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

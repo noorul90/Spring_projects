@@ -1,0 +1,24 @@
+package com.dtm.test;
+
+import java.util.Date;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.dtm.controller.RegisterVehicleController;
+
+public class DTMTest {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/dtm/common/application-context.xml");
+		
+		RegisterVehicleController controller = context.getBean("regVehicleController", RegisterVehicleController.class);
+
+		// Positive Testcase
+		controller.register("John", "X", "M", new Date(), "PAGIO", "VESPA","R007", "E523362", "CH5426", new Date(), new Date());
+		
+		// Negative Testcase
+		// controller.register("Will", "Smith", "M", new Date(), "HONDA", "GUSTO", "R542", "EN5562", "CH5521", new Date(), new Date());
+	}
+
+}

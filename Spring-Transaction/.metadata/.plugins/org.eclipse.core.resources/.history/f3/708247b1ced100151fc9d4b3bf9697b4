@@ -1,0 +1,52 @@
+package com.dtm.dao;
+
+import java.math.BigDecimal;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import org.apache.commons.beanutils.converters.BigDecimalConverter;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.PreparedStatementCreator;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
+
+import com.dtm.businessobject.OwnerBO;
+
+public class OwnerDao {
+	//sql query
+	private final static String SQL_INSERT_OWNER = "INSERT INTO OWNER(OWNER_ID, FIRST_NM, LAST_NM, GENDER, DOB) VALUES(OWNER_ID_SEQUENCE.NEXTVAL,?,?,?,?)";
+	//code
+	private JdbcTemplate jdbcTemplate;
+
+	public OwnerDao(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+	
+	public int saveOwnerAndReturnId(final OwnerBO ownerBo){
+		KeyHolder holder=null;
+		holder = new GeneratedKeyHolder();
+		jdbcTemplate.update(new PreparedStatementCreator() {
+			
+			@Override
+			public PreparedStatement createPreparedStatement(Connection con)
+					throws SQLException {
+				PreparedStatement pstmt=null;
+				pstmt = con.prepareStatement(SQL_INSERT_OWNER, new String[]{"OWNER_ID"});
+				pstmt.setString(1, ownerBo.getFirstName());
+				pstmt.setString(2, ownerBo.getLastName());
+				pstmt.setString(3, ownerBo.getGender());
+				pstmt.setDate(4, new java.sql.Date(ownerBo.getDob().getTime()));
+				
+				return pstmt;
+			}
+		},holder);
+		
+		int ownerId=0;
+		ownerId =(Integer) new BigDecimal(holder.getKey());
+		
+		return ownerId;
+	}
+	
+
+}

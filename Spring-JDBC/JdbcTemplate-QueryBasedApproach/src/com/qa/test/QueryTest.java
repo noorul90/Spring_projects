@@ -1,0 +1,21 @@
+package com.qa.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.qa.dao.StudentDao;
+
+public class QueryTest {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/qa/common/application-context.xml");
+		StudentDao sdao = context.getBean("studentDao", StudentDao.class);
+		//System.out.println("student count: " + sdao.getNoOfStudents());
+		//System.out.println("student name: " +sdao.findStudentNameById(3));
+		//System.out.println("student record: "+sdao.findStudentById(4));
+		//System.out.println("all student records: " + sdao.getAllStudents("%a%"));
+		//System.out.println("name and mobile: " + sdao.getAllStudentsNameAndMobile());
+		//System.out.println("student by theire course: "+sdao.getAllStudentsAndTheirCourses());
+		System.out.println("inserted sutent record: " + sdao.saveStudentWithoutId("Farhaan", 52632541, "farhaan@intelligent.com"));
+	}
+}

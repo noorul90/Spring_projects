@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.jdbc.support.GeneratedKeyHolder"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.PreparedStatementCreator"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+<fullyQualifiedTypeName name="com.dtm.dao.OwnerDao"/>
+<fullyQualifiedTypeName name="com.dtm.dao.VehicleDao"/>
+<fullyQualifiedTypeName name="com.dtm.businessobject.OwnerBO"/>
+<fullyQualifiedTypeName name="com.dtm.businessobject.OwnedVehicleBO"/>
+<fullyQualifiedTypeName name="com.dtm.service.VehicleService"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.dtm.controller.RegisterVehicleController"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.apache.commons.beanutils.converters.BigDecimalConverter"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="com.dtm.valueobject.VehicleRegistrationVO"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+</qualifiedTypeNameHistroy>

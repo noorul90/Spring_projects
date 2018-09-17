@@ -1,0 +1,6 @@
+package com.dtm.businessobject;
+
+public class OwnedVehicleBO {
+	
+
+}

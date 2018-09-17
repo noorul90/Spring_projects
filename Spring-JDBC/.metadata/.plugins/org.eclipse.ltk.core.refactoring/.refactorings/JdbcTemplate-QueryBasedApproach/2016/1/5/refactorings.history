@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;JdbcTemplate-QueryBasedApproach&apos;&#x0D;&#x0A;- Original project: &apos;JdbcTemplate-QueryBasedApproach&apos;&#x0D;&#x0A;- Original element: &apos;com.qa.dao.StudentBoRowMapper.java&apos;" description="Delete element" element1="/src&lt;com.qa.dao{StudentBoRowMapper.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1454180714479" subPackages="false" version="1.0"/>
+</session>

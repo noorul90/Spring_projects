@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.PreparedStatementCreator"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.PreparedStatementCallback"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.ca.bo.StudentBO"/>
+<fullyQualifiedTypeName name="com.ca.dao.GetAllStudentStatementCreator"/>
+<fullyQualifiedTypeName name="com.ca.dao.GetAllStudentStatementCallback"/>
+<fullyQualifiedTypeName name="com.ca.dao.StudentDao"/>
+<fullyQualifiedTypeName name="com.qa.dao.StudentDao"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+<fullyQualifiedTypeName name="com.qa.dao.StudentDao.StudentBoRowMapper"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.ResultSetExtractor"/>
+<fullyQualifiedTypeName name="com.qa.bo.StudentDetailsBO"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.npjt.dao.StudentDao"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.npjt.dao.StudentDao.StudentBoRowMapper"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.namedparam.MapSqlParameterSource"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource"/>
+<fullyQualifiedTypeName name="com.npjt.bo.StudentBO"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.simple.SimpleJdbcInsert"/>
+<fullyQualifiedTypeName name="org.apache.commons.collections.map.HashedMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.sjt.dao.StudentInsertDao"/>
+<fullyQualifiedTypeName name="com.sjt.bo.StudentBO"/>
+<fullyQualifiedTypeName name="org.eclipse.core.internal.runtime.FindSupport"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+</qualifiedTypeNameHistroy>

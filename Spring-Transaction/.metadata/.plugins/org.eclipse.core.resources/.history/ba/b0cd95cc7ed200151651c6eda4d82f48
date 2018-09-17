@@ -1,0 +1,36 @@
+package com.dtm.dao;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.dtm.businessobject.OwnedVehicleBO;
+
+public class VehicleDao {
+	// sql
+	private final static String SQL_GET_VEHICLE_ID_BY_MAKE_AND_MODEL = "SELECT VEHICLE_ID FROM VEHICLE WHERE MAKE=? AND MODEL=?";
+	private final static String SQL_INSERT_OWNED_VEHICLE = "INSERT INTO REGISTERED_VEHICLE(VEHICLE_ID,OWNER_ID,REGISTRATION_NO,CHASIS_NO,ENGINE_NO,PURCHASE_DT,DATE_OF_REGISTRATION) VALUES(?,?,?,?,?,?,?)";
+
+	// code
+	private JdbcTemplate jdbcTemplate;
+
+	public VehicleDao(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+	public int findVehicleId(final String make, final String model) {
+		return jdbcTemplate.queryForInt(SQL_GET_VEHICLE_ID_BY_MAKE_AND_MODEL,
+				new Object[] { make, model });
+	}
+
+	public void saveOwnedVehicle(OwnedVehicleBO ownedVehicleBo) {
+		jdbcTemplate.update(
+				SQL_INSERT_OWNED_VEHICLE,
+				new Object[] { ownedVehicleBo.getVehicleId(),
+						ownedVehicleBo.getOwnerId(),
+						ownedVehicleBo.getRegistrationNo(),
+						ownedVehicleBo.getChachisNo(),
+						ownedVehicleBo.getEngineNo(),
+						ownedVehicleBo.getPurchseDate(),
+						ownedVehicleBo.getDateOfRegistration() });
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.dtm.valueobject;
+
+public class VehicleRegistrationVO {
+
+}

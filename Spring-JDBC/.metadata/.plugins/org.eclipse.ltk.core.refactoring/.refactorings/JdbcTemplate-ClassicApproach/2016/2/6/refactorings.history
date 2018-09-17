@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;application-context.xml&apos; to &apos;SimpleJdbcTemplate/src/com.sjt.common&apos;&#x0D;&#x0A;- Original project: &apos;JdbcTemplate-ClassicApproach&apos;&#x0D;&#x0A;- Destination element: &apos;SimpleJdbcTemplate/src/com.sjt.common&apos;&#x0D;&#x0A;- Original element: &apos;application-context.xml&apos;" description="Copy file" destination="=SimpleJdbcTemplate/src&lt;com.sjt.common" element1="src/com/ca/common/application-context.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1454433613341" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/JdbcTemplate-ClassicApproach/src/com/ca/common/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/JdbcTemplate-QueryBasedApproach/src/com/qa/common/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/NamedParameterJdbcTemplate/src/com/npjt/common/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/SimpleJdbcTemplate/src/com/sjt/common/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

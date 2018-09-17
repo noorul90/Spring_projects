@@ -1,0 +1,38 @@
+package com.dtm.controller;
+
+import java.util.Date;
+
+import com.dtm.service.VehicleService;
+import com.dtm.valueobject.VehicleRegistrationVO;
+
+public class RegisterVehicleController {
+	private VehicleService vehicleService;
+
+	public void setVehicleService(VehicleService vehicleService) {
+		this.vehicleService = vehicleService;
+	}
+
+	public void register(String firstName, String lastName, String gender,
+			Date dob, String make, String model, String regNo, String engineNo,
+			String chachisNo, Date purchaseDate, Date regDate) {
+		
+		VehicleRegistrationVO vrbo = null;
+		vrbo = new VehicleRegistrationVO();
+		// set the value
+		vrbo.setFirstName(firstName);
+		vrbo.setLastName(lastName);
+		vrbo.setGender(gender);
+		vrbo.setDob(dob);
+		vrbo.setMake(make);
+		vrbo.setModel(model);
+		vrbo.setRegistrationNo(regNo);
+		vrbo.setEngineNo(engineNo);
+		vrbo.
+		vrbo.setPurchaseDate(purchaseDate);
+		vrbo.setDateOfRegistration(regDate);
+
+		vehicleService.register(vrbo);
+		System.out.println("registration successful.....");
+	}
+
+}

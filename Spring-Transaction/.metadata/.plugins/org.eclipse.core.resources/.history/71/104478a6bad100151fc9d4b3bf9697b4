@@ -1,0 +1,5 @@
+package com.dtm.businessobject;
+
+public class OwnerBO {
+
+}
