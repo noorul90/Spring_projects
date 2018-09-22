@@ -1,5 +1,0 @@
-package com.mba.aspect;
-
-public class SecurityAspect {
-
-}
