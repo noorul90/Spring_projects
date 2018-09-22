@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="FirstAnnoMVCWeb"/>
+<aop-project name="spring-security-auth-server"/>
+<aop-project name="ThirdAnnoMVCWeb"/>
+<aop-project name="BasicSpringSecurityWeb"/>
+<aop-project name="SecondAnnoMVCWeb"/>
+<aop-project name="MVCNamespaceWeb"/>
+<aop-project name="AnnonAbstractControllerWeb"/>
+</aop-reference-model>

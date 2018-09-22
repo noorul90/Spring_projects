@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Sep 05 20:38:22 IST 2018
+org.eclipse.jst.jee.server\:/binary\:F\:\\Workspace-STS\\MVC\\Annotations\\TicketSystemManagementWeb\\WebContent\\WEB-INF\\lib\\spring-web-4.1.1.RELEASE-sources.jar=WEB-INF/lib/spring-web-4.1.1.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:F\:\\Workspace-STS\\MVC\\Annotations\\TicketSystemManagementWeb\\WebContent\\WEB-INF\\lib\\spring-web-4.1.1.RELEASE.jar=WEB-INF/lib/spring-web-4.1.1.RELEASE.jar

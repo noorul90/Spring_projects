@@ -1,0 +1,7 @@
+<classpath>
+  <container id="TicketSystemManagementWeb!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/Workspace-STS/MVC/Annotations/TicketSystemManagementWeb/WebContent/WEB-INF/lib/spring-webmvc-4.1.1.RELEASE.jar">
+      <source-attachment-path>/TicketSystemManagementWeb/WebContent/WEB-INF/lib/spring-webmvc-4.1.1.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

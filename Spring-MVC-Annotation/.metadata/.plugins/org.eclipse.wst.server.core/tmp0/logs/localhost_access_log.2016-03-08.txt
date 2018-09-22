@@ -1,0 +1,4 @@
+127.0.0.1 - - [08/Mar/2016:23:06:30 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Mar/2016:23:07:27 +0530] "GET /MVCNamespaceWeb/index.htm HTTP/1.1" 200 330
+0:0:0:0:0:0:0:1 - - [08/Mar/2016:23:08:19 +0530] "GET /MVCNamespaceWeb/index.htm HTTP/1.1" 200 330
+0:0:0:0:0:0:0:1 - - [08/Mar/2016:23:09:19 +0530] "GET /MVCNamespaceWeb/index.htm HTTP/1.1" 200 323
