@@ -1,0 +1,16 @@
+127.0.0.1 - - [04/Mar/2016:08:58:09 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:00:02 +0530] "GET /TravelAdminWeb/new-bus.htm HTTP/1.1" 500 6591
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:00:33 +0530] "GET /TravelAdminWeb/new-bus.htm HTTP/1.1" 500 6562
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:01:03 +0530] "GET /TravelAdminWeb/new-bus.htm HTTP/1.1" 200 897
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:01:31 +0530] "POST /TravelAdminWeb/new-bus.htm HTTP/1.1" 200 350
+127.0.0.1 - - [04/Mar/2016:09:13:16 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:13:18 +0530] "GET /FirstMVCWeb/WEB-INF/classes/com/fmwa/controller/ViewHomeController.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:13:57 +0530] "GET /FirstMVCWeb/home.htm HTTP/1.1" 200 326
+127.0.0.1 - - [04/Mar/2016:09:16:50 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:16:51 +0530] "GET /JourneyPlannerWeb/WEB-INF/classes/com/jpw/controller/GetAvailableJourneyCommandController.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:17:04 +0530] "GET /JourneyPlannerWeb/planmyjourney.htm HTTP/1.1" 200 800
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:17:24 +0530] "POST /JourneyPlannerWeb/getAvailableJourney.htm HTTP/1.1" 200 982
+127.0.0.1 - - [04/Mar/2016:09:19:34 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:19:34 +0530] "GET /QuickJourneyWeb/WEB-INF/classes/com/qjw/controller/GetNext7DaysJourneysController.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:19:51 +0530] "GET /QuickJourneyWeb/home.htm HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:09:19:56 +0530] "GET /QuickJourneyWeb/next-7-day-journeys.htm HTTP/1.1" 200 529

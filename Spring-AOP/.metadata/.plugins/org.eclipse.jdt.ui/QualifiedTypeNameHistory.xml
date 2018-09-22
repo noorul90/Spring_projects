@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javassist.util.proxy.ProxyFactory"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+<fullyQualifiedTypeName name="org.aopalliance.intercept.MethodInterceptor"/>
+<fullyQualifiedTypeName name="com.aa.util.Cache"/>
+<fullyQualifiedTypeName name="org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor"/>
+<fullyQualifiedTypeName name="com.mba.beans.AuditAspect"/>
+<fullyQualifiedTypeName name="org.springframework.aop.MethodBeforeAdvice"/>
+<fullyQualifiedTypeName name="java.lang.ThreadLocal"/>
+<fullyQualifiedTypeName name="com.mba.util.Credentials"/>
+<fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+<fullyQualifiedTypeName name="com.mba.beans.AuthenticationAspect"/>
+<fullyQualifiedTypeName name="com.mba.beans.LoanApprover"/>
+<fullyQualifiedTypeName name="com.mba.util.AuthenticationManager"/>
+<fullyQualifiedTypeName name="com.ara.beans.KeyCheckAspect"/>
+<fullyQualifiedTypeName name="com.ara.beans.KeyGenerator"/>
+<fullyQualifiedTypeName name="org.springframework.aop.AfterReturningAdvice"/>
+<fullyQualifiedTypeName name="com.ara.beans.OffersAspect"/>
+<fullyQualifiedTypeName name="com.ara.beans.BillGenerator"/>
+<fullyQualifiedTypeName name="com.ara.beans.MembershipCard"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.aop.ThrowsAdvice"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="com.ta.beans.Thrower"/>
+<fullyQualifiedTypeName name="com.ta.beans.GlobalExceptionLoggingAspect"/>
+<fullyQualifiedTypeName name="org.springframework.aop.support.StaticMethodMatcherPointcut"/>
+<fullyQualifiedTypeName name="org.hibernate.type.ClassType"/>
+<fullyQualifiedTypeName name="com.aa.beans.LoggingPointcut"/>
+<fullyQualifiedTypeName name="com.aa.beans.LoggingAspect"/>
+<fullyQualifiedTypeName name="org.springframework.aop.support.DynamicMethodMatcherPointcut"/>
+<fullyQualifiedTypeName name="org.springframework.aop.framework.ProxyFactory"/>
+<fullyQualifiedTypeName name="com.dpc.beans.Calculator"/>
+<fullyQualifiedTypeName name="org.springframework.aop.support.DefaultPointcutAdvisor"/>
+<fullyQualifiedTypeName name="com.dpc.beans.LoggingDynamicPointcut"/>
+<fullyQualifiedTypeName name="com.dpc.beans.LoggingAspect"/>
+</qualifiedTypeNameHistroy>

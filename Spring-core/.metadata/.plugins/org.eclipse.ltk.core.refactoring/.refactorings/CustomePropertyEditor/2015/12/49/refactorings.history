@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.cpe.registrar&apos; to &apos;com.cpe.editors&apos;&#x0D;&#x0A;- Original project: &apos;CustomePropertyEditor&apos;&#x0D;&#x0A;- Original element: &apos;CustomePropertyEditor/src/com.cpe.registrar&apos;&#x0D;&#x0A;- Renamed element: &apos;CustomePropertyEditor/src/com.cpe.editors&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.cpe.registrar&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.cpe.registrar" name="com.cpe.editors" qualified="false" references="true" stamp="1449254026709" textual="false" version="1.0"/>
+</session>

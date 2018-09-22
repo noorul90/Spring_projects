@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FirstSpringWithHibernate/src/com/fswh/entities/Bus.hbm.xml&apos; to &apos;Bus.hbm.xml.bak&apos;" description="Rename resource &apos;Bus.hbm.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/fswh/entities/Bus.hbm.xml" name="Bus.hbm.xml.bak" stamp="1458200865884" updateReferences="true"/>
+</session>

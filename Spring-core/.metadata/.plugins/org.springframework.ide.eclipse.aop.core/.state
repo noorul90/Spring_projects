@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="BeanFactoryPostProcessor"/>
+<aop-project name="IDRef"/>
+<aop-project name="EventProcessing"/>
+<aop-project name="UtilCollectionDI-using-CI"/>
+<aop-project name="CollectionMerging-using-SI"/>
+<aop-project name="P&amp;C_Namespace"/>
+<aop-project name="WorkingWithNull"/>
+<aop-project name="CustomePropertyEditor"/>
+<aop-project name="BeanInheritance-using-SetterInjection"/>
+<aop-project name="PropertyEditors"/>
+<aop-project name="StaticFactoryMethodInstantiation"/>
+<aop-project name="SecondSpring"/>
+<aop-project name="IDReference"/>
+<aop-project name="FactoryBean"/>
+<aop-project name="JavaConfigProjectAnnotation"/>
+<aop-project name="Setter-Injection"/>
+<aop-project name="BeanAliasingUseCase"/>
+<aop-project name="DependsOn"/>
+<aop-project name="Primitive-Injection"/>
+<aop-project name="LookupMethodInjection-2"/>
+<aop-project name="FirstSpring"/>
+<aop-project name="BeanAutoWiring-using-CI"/>
+<aop-project name="AwareInterface"/>
+<aop-project name="InnerBean"/>
+<aop-project name="LookupMethodInjection-1"/>
+<aop-project name="BeanAutoWiring-mode-byName"/>
+<aop-project name="UtilCollectionDI-using-SI"/>
+<aop-project name="BeanAliasing-using-SI"/>
+<aop-project name="ConstructorConfusion-NameAttribute"/>
+<aop-project name="BeanLifeCycle"/>
+<aop-project name="BeanPostProcessor"/>
+<aop-project name="Internationalization"/>
+<aop-project name="BeanScope"/>
+<aop-project name="InstanceFactoryMethodInstantiation"/>
+<aop-project name="AnnotationsConfig"/>
+<aop-project name="NestedBeanFactory"/>
+<aop-project name="ConstructorConfusion-IndexAttribute"/>
+<aop-project name="DependencyCheck"/>
+<aop-project name="ConstructorConfusion-TypeAttribute"/>
+<aop-project name="MethodReplacement"/>
+</aop-reference-model>

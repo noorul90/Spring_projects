@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+F:\Workspace-STS\Spring-AOP\Declarative-AspectJ-AOP\.metadata\.plugins\org.eclipse.jdt.core
+2444312049.index
+1149141916.index
+1517364599.index
+417225513.index
+2146074926.index
+1667264933.index
+2961231853.index

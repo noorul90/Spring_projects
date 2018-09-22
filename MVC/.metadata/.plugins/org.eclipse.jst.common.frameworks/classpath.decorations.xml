@@ -1,0 +1,12 @@
+<classpath>
+  <container id="BusManagementWeb!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/Workspace-STS/MVC/BusManagementWeb/WebContent/WEB-INF/lib/org.springframework.web.servlet-3.0.1.RELEASE-A.jar">
+      <source-attachment-path>/ViewResolverWeb/WebContent/WEB-INF/lib/org.springframework.web.servlet-3.0.1.RELEASE-A.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="ViewResolverWeb!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/Workspace-STS/MVC/ViewResolverWeb/WebContent/WEB-INF/lib/org.springframework.web.servlet-3.0.1.RELEASE-A.jar">
+      <source-attachment-path>/ViewResolverWeb/WebContent/WEB-INF/lib/org.springframework.web-3.0.1.RELEASE-A.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

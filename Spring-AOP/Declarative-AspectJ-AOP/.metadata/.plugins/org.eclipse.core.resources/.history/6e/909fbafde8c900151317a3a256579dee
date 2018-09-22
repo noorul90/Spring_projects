@@ -1,0 +1,5 @@
+package com.ta.aspect;
+
+public class ExceptionLoggingAspect {
+
+}

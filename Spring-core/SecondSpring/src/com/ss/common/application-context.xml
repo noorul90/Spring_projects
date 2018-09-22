@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="weatherFinder" class="com.ss.beans.WeatherFinder">
+      <property name="weatherForecaster" ref="usWeatherForecaster" />
+    </bean>
+    <bean id="indiaWeatherForecaster" class="com.ss.beans.IndiaWeatherForecaster" />
+    <bean id="usWeatherForecaster" class="com.ss.beans.USWeatherForecaster" />
+
+</beans>

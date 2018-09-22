@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.pac.test.PandC_Test&apos; to &apos;PandCTest&apos;&#x0D;&#x0A;- Original project: &apos;P&amp;C_Namespace&apos;&#x0D;&#x0A;- Original element: &apos;com.pac.test.PandC_Test&apos;&#x0D;&#x0A;- Renamed element: &apos;com.pac.test.PandCTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PandC_Test&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.pac.test{PandC_Test.java[PandC_Test" matchStrategy="1" name="PandCTest" qualified="false" references="true" similarDeclarations="false" stamp="1443901224404" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <bean id="modelCar" abstract="true">
+     <property name="name" value="Tata" />
+     <property name="model" value="c-base" />
+     <property name="color" value="red" />
+   </bean>
+   
+    <bean id="car1" class="com.bi.beans.Car" parent="modelCar">
+     <property name="id" value="11" />
+     <property name="capacity" value="4" />  
+   </bean>
+   
+   <bean id="car2" class="com.bi.beans.Car" parent="modelCar">
+      <property name="id" value="12" />
+      <property name="capacity" value="4" />
+   </bean>
+   
+   <bean id="car3" class="com.bi.beans.Car" parent="modelCar">
+      <property name="id" value="13" />
+      <property name="capacity" value="4" />
+   </bean>
+   
+   <bean id="bus1" class="com.bi.beans.Bus" parent="modelCar">
+     <property name="id" value="20" />
+     <property name="capacity" value="45" />
+     <property name="type" value="volvo" />
+   </bean>
+   
+   <bean id="bus2" class="com.bi.beans.Bus" parent="modelCar">
+     <property name="id" value="21" />
+     <property name="capacity" value="52" />
+     <property name="type" value="Sleeper" />
+   </bean>
+
+</beans>

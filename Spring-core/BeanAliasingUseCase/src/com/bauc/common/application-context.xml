@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ 
+  <bean id="flipkartStore" class="com.bauc.beans.FlipKartStore">
+    <property name="bluedartCourier" ref="bluedart"/>
+    <property name="dtdcCourier" ref="dtdc" />
+  </bean>
+  
+  <bean id="bluedart" class="com.bauc.beans.BlueDartCourierImpl" />
+  
+ <!-- <alias name="dtdc" alias="bluedart" />   -->
+  
+  <bean id="dtdc" class="com.bauc.beans.DtdcCourierImpl" />
+  
+  <bean id="address" class="com.bauc.beans.Address">
+    <property name="zip" value="280000" />
+  </bean>
+  
+  <bean id="payment" class="com.bauc.beans.Payment">
+     <property name="paymentNo" value="20145" />
+     <property name="paymentType" value="online" />
+  </bean>
+
+
+</beans>

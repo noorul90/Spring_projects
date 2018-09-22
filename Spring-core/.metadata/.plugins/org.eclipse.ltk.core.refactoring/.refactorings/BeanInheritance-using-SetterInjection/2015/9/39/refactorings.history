@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;BeanInheritance-using-ConstructorInjection/src&apos;&#x0D;&#x0A;- Original project: &apos;BeanInheritance-using-SetterInjection&apos;&#x0D;&#x0A;- Destination element: &apos;BeanInheritance-using-ConstructorInjection/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     BeanInheritance-using-SetterInjection/src/com.bi.test&#x0D;&#x0A;     BeanInheritance-using-SetterInjection/src/com.bi.common&#x0D;&#x0A;     BeanInheritance-using-SetterInjection/src/com.bi.beans" description="Copy packages" destination="=BeanInheritance-using-ConstructorInjection/src" element1="/src&lt;com.bi.test" element2="/src&lt;com.bi.common" element3="/src&lt;com.bi.beans" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1442946134564" version="1.0"/>
+</session>

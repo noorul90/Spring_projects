@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;BeanAutoWiring-mode-constructor/src&apos;&#x0D;&#x0A;- Original project: &apos;BeanAutoWiring-mode-byType&apos;&#x0D;&#x0A;- Destination element: &apos;BeanAutoWiring-mode-constructor/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     BeanAutoWiring-mode-byType/src/com.baw.beans&#x0D;&#x0A;     BeanAutoWiring-mode-byType/src/com.baw.test&#x0D;&#x0A;     BeanAutoWiring-mode-byType/src/com.baw.common" description="Copy packages" destination="=BeanAutoWiring-mode-constructor/src" element1="/src&lt;com.baw.beans" element2="/src&lt;com.baw.test" element3="/src&lt;com.baw.common" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1443549443940" version="1.0"/>
+</session>

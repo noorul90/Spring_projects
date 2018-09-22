@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="BingAdsDesktopApp"/>
+<aop-project name="ForwardingWeb"/>
+<aop-project name="HandlerMappingWeb"/>
+<aop-project name="JourneyPlannerWeb"/>
+<aop-project name="BusManagementWeb"/>
+<aop-project name="QuickJourneyWeb"/>
+<aop-project name="spring-security-client"/>
+<aop-project name="FirstMVCWeb"/>
+<aop-project name="SecondMVCWeb"/>
+<aop-project name="ViewResolverWeb"/>
+<aop-project name="TravelAdminWeb"/>
+</aop-reference-model>

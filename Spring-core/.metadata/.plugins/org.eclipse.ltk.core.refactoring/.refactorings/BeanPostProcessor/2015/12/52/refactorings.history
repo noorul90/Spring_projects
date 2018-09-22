@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.bpp.beans.EmployeeVo&apos; to &apos;EmployeeVO&apos;&#x0D;&#x0A;- Original project: &apos;BeanPostProcessor&apos;&#x0D;&#x0A;- Original element: &apos;com.bpp.beans.EmployeeVo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.bpp.beans.EmployeeVO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EmployeeVo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.bpp.beans{EmployeeVo.java[EmployeeVo" matchStrategy="1" name="EmployeeVO" qualified="false" references="true" similarDeclarations="false" stamp="1450619710236" textual="false" version="1.0"/>
+</session>

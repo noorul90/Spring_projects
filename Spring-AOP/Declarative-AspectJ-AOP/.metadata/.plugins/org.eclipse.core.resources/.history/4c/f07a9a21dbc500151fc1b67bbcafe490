@@ -1,0 +1,38 @@
+package com.mba.aspect;
+
+import org.aspectj.lang.JoinPoint;
+
+import com.mba.util.AuthenticationManager;
+
+
+public class SecurityAspect {
+	private AuthenticationManager am;
+	
+	public void setAm(AuthenticationManager am) {
+		this.am = am;
+	}
+
+	public void audit(JoinPoint jp){
+		String methodName=null;
+		Object[] args=null;
+		
+		methodName = jp.getSignature().getName();
+		args = jp.getArgs();
+		//logic to execute before target class method get executed
+		System.out.println(methodName + "(" + args[0] + ")" + " has been called by "+am.getLoggedinUser());
+		//at this poin controle automatically goes to target class method
+	}
+	
+	public void authenticate(JoinPoint jp) throws IllegalAccessException{
+		String methodName=null;
+		
+		methodName = jp.getSignature().getName();
+		System.out.println("entered int: " +methodName);
+		//performed authentication
+		if(am.isAuthenticate()==false){
+			throw new IllegalAccessException("Invalid username/password");
+		}
+		
+	}
+
+}

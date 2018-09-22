@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.aa.beans.Calculator"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
+<fullyQualifiedTypeName name="com.aa.cache.util.Cache"/>
+<fullyQualifiedTypeName name="com.aa.cache.beans.Calculator"/>
+<fullyQualifiedTypeName name="java.lang.ThreadLocal"/>
+<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+<fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+<fullyQualifiedTypeName name="com.mba.beans.LoanApprover"/>
+<fullyQualifiedTypeName name="com.mba.util.AuthenticationManager"/>
+<fullyQualifiedTypeName name="com.mba.util.Credential"/>
+<fullyQualifiedTypeName name="com.ara.beans.KeyGenerator"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.ta.beans.Thrower"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+package com.ara.aspect;
+
+public class KeyCheckAspect {
+
+}

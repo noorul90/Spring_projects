@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <bean id="baseCar" 
+    abstract="true">
+     <constructor-arg value="Tata" name="name"/>
+     <constructor-arg value="A-base" name="model"/>
+     <constructor-arg value="White" name="color"/>
+   </bean>
+   
+   <bean id="car1" class="com.bi.beans.Car" parent="baseCar">
+     <constructor-arg value="101" name="id" />
+     <constructor-arg value="4" name="capacity" />  
+   </bean>
+   
+   <bean id="car2" class="com.bi.beans.Car" parent="baseCar">
+     <constructor-arg value="5" name="capacity" />
+      <constructor-arg value="102" name="id" /> 
+   </bean>
+   
+   <bean id="bus1" class="com.bi.beans.Bus" parent="baseCar">
+     <constructor-arg value="201" name="id"/>
+     <constructor-arg value="45" name="capacity" />
+     <constructor-arg value="volvo" name="type" />
+   </bean>
+   
+   <bean id="bus2" class="com.bi.beans.Bus" parent="baseCar">
+     <constructor-arg value="202" name="id"/>
+     <constructor-arg value="49" name="capacity" />
+     <constructor-arg value="AC" name="type" />
+   </bean>
+   
+   <bean id="bus3" class="com.bi.beans.Bus" parent="baseCar">
+     <constructor-arg value="203" name="id"/>
+     <constructor-arg value="55" name="capacity" />
+     <constructor-arg value="Sleeper" name="type" />
+   </bean>
+   
+</beans>

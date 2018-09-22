@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+	  <property name="mappings">
+	    <props>
+	      <prop key="/home.htm">viewHomeController</prop>
+	    </props>
+	  </property>
+	  <property name="interceptors">
+	    <list>
+	     <ref bean="loggingInterceptor"/>
+	    </list>
+	  </property>
+	</bean>
+	
+	<bean id="viewHomeController" class="com.fhiw.controller.ViewHomeController" />
+	
+	<bean id="loggingInterceptor" class="com.fhiw.interceptor.LoggingInterceptor" />
+	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	  <property name="prefix" value="/WEB-INF/jsp/"/>
+	  <property name="suffix" value=".jsp"/>
+	</bean>
+</beans>

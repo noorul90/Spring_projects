@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;MethodReplacer/src&apos;&#x0D;&#x0A;- Original project: &apos;MethodReplacement&apos;&#x0D;&#x0A;- Destination element: &apos;MethodReplacer/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     MethodReplacement/src/com.mr.common&#x0D;&#x0A;     MethodReplacement/src/com.mr.beans&#x0D;&#x0A;     MethodReplacement/src/com.mr.test" description="Copy packages" destination="=MethodReplacer/src" element1="/src&lt;com.mr.common" element2="/src&lt;com.mr.beans" element3="/src&lt;com.mr.test" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1449156309269" version="1.0"/>
+</session>

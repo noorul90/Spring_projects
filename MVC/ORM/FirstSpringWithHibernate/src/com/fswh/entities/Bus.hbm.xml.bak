@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.fswh.entities">
+  <class name="Bus" table="BUS">
+    <id name="busId" column="BUS_ID">
+      <generator class="increment" />
+    </id>
+    <property name="serviceNo" column="BUS_SERVICE_NO"/>
+    <property name="regNo" column="REGISTRATION_NO"/>
+    <property name="busType" column="TYPE"/>
+    <property name="seatingCapacity" column="SEATTING_CAPACITY"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="robot1" class="com.baw.beans.Robot" autowire="constructor" />
+  
+  <bean id="chip11" class="com.baw.beans.Chip">
+    <property name="chipNo" value="12535" />
+    <property name="chipType" value="class-3" />
+    <property name="manufacturer" value="intel" />
+  </bean>
+  
+  <bean id="sensor12" class="com.baw.beans.Sensor">
+    <property name="sensorId" value="562153" />
+    <property name="sensorType" value="Infarared" />
+  </bean>
+  
+  <bean id="advChip13" class="com.baw.beans.AdvanceChip">
+    <property name="advChipNo" value="AD526" />
+    <property name="advChipType" value="class-3" />
+    <property name="manufacturer" value="Sandisk" />
+  </bean>
+
+</beans>

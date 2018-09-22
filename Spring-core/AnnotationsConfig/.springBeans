@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.5.1.201404300732-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/com/ac/autowired/annon/application-context.xml</config>
+		<config>src/com/ac/qualifier/annon/application-context.xml</config>
+		<config>src/com/ac/stereotype/annon/application-context.xml.bak</config>
+		<config>src/com/ac/dependson/annon/application-context.xml.bak</config>
+		<config>src/com/ac/value/annon/application-context.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

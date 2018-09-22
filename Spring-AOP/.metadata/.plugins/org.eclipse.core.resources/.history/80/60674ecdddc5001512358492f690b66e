@@ -1,0 +1,41 @@
+package com.mba.util;
+
+public class AuthenticationManager {
+	private static AuthenticationManager instance;
+	private ThreadLocal<Credentials> credentialsName;
+
+	private AuthenticationManager() {
+		credentialsName = new ThreadLocal<Credentials>();
+	}
+
+	public static synchronized AuthenticationManager getInstance() {
+		if (instance == null) {
+			instance = new AuthenticationManager();
+		}
+		return instance;
+	}
+
+	public void login(String uname, String pwd) {
+		Credentials cred = new Credentials(uname, pwd);
+		credentialsName.set(cred);
+	}
+
+	public void logout() {
+		credentialsName.set(null);
+	}
+
+	public boolean isAuthenticate() {
+		Credentials cred = null;
+		cred = credentialsName.get();
+		if (cred != null) {
+			// write jdbc logic here to authenticate
+
+			if (cred.getUsername().equals("john")
+					&& cred.getPassword().equals("welcome")) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+}

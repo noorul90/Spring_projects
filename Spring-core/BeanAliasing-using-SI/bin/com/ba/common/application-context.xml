@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <bean id="person" name="p1,p2,p3" class="com.ba.beans.Person">
+     <property name="ssn" value="10" />
+     <property name="firstName" value="Noorul" />
+     <property name="lastName" value="Siddique" />
+     <property name="gender" value="Male" />
+     <property name="middleName" value="Islam" />
+   </bean>
+   
+   <alias name="person" alias="p4" />
+   <alias name="p3" alias="p5,p6" />
+   <alias name="p4" alias="p7,p8,p9" />
+   <alias name="p5,p6" alias="p10, p11" />
+
+</beans>

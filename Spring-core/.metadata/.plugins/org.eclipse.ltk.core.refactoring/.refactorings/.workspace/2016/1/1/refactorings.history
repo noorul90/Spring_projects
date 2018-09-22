@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;ComponentScanAnnotation&apos; to &apos;AnnotationConfiguration&apos;&#x0D;&#x0A;- Original element: &apos;ComponentScanAnnotation&apos;&#x0D;&#x0A;- Renamed element: &apos;ComponentScanAnnotation&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;ComponentScanAnnotation&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=ComponentScanAnnotation" name="AnnotationConfiguration" references="true" stamp="1451763202470" version="1.0"/>
+</session>

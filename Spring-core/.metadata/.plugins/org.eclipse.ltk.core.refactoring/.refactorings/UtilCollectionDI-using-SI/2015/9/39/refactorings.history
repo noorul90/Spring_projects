@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;UtilCollectionDependencyInjection-using-ConstructorInjection/src&apos;&#x0D;&#x0A;- Original project: &apos;UtilCollectionDependency-Injection&apos;&#x0D;&#x0A;- Destination element: &apos;UtilCollectionDependencyInjection-using-ConstructorInjection/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     UtilCollectionDependency-Injection/src/com.ucdi.beans&#x0D;&#x0A;     UtilCollectionDependency-Injection/src/com.ucdi.test&#x0D;&#x0A;     UtilCollectionDependency-Injection/src/com.ucdi.common" description="Copy packages" destination="=UtilCollectionDependencyInjection-using-ConstructorInjection/src" element1="/src&lt;com.ucdi.beans" element2="/src&lt;com.ucdi.test" element3="/src&lt;com.ucdi.common" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1443040620204" version="1.0"/>
+</session>
